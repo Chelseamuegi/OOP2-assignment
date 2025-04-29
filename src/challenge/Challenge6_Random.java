@@ -1,21 +1,30 @@
 import java.util.Random;
-package challenge;
-public class WeatherChart {
+package week Three
+public class Dice {
     public static void main(String[] args) {
         Random random = new Random();
+        int roll1 = random.nextInt(5) + 1;
+        int roll2 = random.nextInt(4) + 1;
+        int roll3 = random.nextInt(6) + 1;
+        int total = roll1 + roll2 + roll3;
 
-        int temperature = random.nextInt(50); // generates a temp between 0 and 40
+        System.out.println("Dice roll: " + roll1 + " + " + roll2 + " + " + roll3);
 
-        System.out.println("Today's temperature is: " + temperature + "°C");
+        if ((roll1 == roll2) && (roll2 == roll3)) {
+            System.out.println("You rolled triples! +8 bonus to total!");
+            total += 6;
+        } else if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)) {
+            System.out.println("You rolled doubles! +2 bonus to total!");
+            total += 2;
+        }
 
-        if (temperature >= 40) {
-            System.out.println("It's hot outside.");
-        } else if (temperature >= 30) {
-            System.out.println("Nice weather!.");
-        } else if (temperature >= 20) {
-            System.out.println("It's a bit chilly.");
+        System.out.println("Total score: " + total);
+
+        if (total >= 15) {
+            System.out.println("You win!");
         } else {
-            System.out.println("It's cold! Stay indoors.");
+            System.out.println("Sorry, you lose.");
         }
     }
+}
 }
