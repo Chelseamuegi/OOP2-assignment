@@ -1,5 +1,5 @@
 package challenge;
-// Introduction to java example
+// Simple java example
 public class introduction {
      void displaymessage(){
 

@@ -1,4 +1,4 @@
-// Scanner example
+// Import - Scanner example
 package challenge;
 
 import java.util.Scanner;

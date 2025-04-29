@@ -1,5 +1,5 @@
 package challenge;
-//While loop example
+// loop example
 import java.util.*;
 public class WhileLoop {
     Scanner input = new Scanner(System.in);

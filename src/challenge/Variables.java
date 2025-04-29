@@ -1,5 +1,5 @@
 package challenge;
-
+//Variable example
 public class Variables {
     public static void calculateCost() {
         int pencils = 12;

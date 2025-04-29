@@ -1,5 +1,5 @@
 package challenge;
-// Import - Random example
+// Import Random example
 import java.util.Random;
 public class RandomExample{
 
