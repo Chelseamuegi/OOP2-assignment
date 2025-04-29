@@ -1,5 +1,5 @@
 import java.util.Random;
-package week Three
+package challenge
 public class Dice {
     public static void main(String[] args) {
         Random random = new Random();
