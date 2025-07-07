@@ -13,7 +13,7 @@ public class HelloTillStop {
             choice = sc.next();
         }
     }
-    public static void main(String[args]){
-        (n)
+    public static void main(String[]args){
+
     }
 }
