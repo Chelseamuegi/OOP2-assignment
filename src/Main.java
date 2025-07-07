@@ -8,7 +8,7 @@ public class Main{
 
 
 
-public class HelloTillStop {
+public static class HelloTillStop {
     Scanner sc =new Scanner(System.in);
 
 
