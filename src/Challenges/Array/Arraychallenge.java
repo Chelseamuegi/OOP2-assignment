@@ -1,4 +1,4 @@
-package challenge.Array;
+package Challenges.Array;
 
 public class Arraychallenge {
     public static void main(String[] args) {

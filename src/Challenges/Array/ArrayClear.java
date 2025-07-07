@@ -1,4 +1,4 @@
-package challenge.Array;
+package Challenges.Array;
 
 import java.util.Arrays;
 

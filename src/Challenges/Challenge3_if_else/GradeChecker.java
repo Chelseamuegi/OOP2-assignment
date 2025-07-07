@@ -1,4 +1,4 @@
-package challenge;
+package Challenges.Challenge3_if_else;
 public class GradeChecker {
     public static void main(String[] args) {
         int score = 75;

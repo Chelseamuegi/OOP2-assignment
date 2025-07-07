@@ -1,5 +1,7 @@
+package Challenges.Challenge6_Random;
+
 import java.util.Random;
-package challenge
+
 public class Dice {
     public static void main(String[] args) {
         Random random = new Random();
@@ -8,7 +10,7 @@ public class Dice {
         int roll3 = random.nextInt(6) + 1;
         int total = roll1 + roll2 + roll3;
 
-        System.out.println("Dice roll: " + roll1 + " + " + roll2 + " + " + roll3);
+        System.out.println("Challenges.Challenge6_Random.Dice roll: " + roll1 + " + " + roll2 + " + " + roll3);
 
         if ((roll1 == roll2) && (roll2 == roll3)) {
             System.out.println("You rolled triples! +8 bonus to total!");
@@ -27,4 +29,4 @@ public class Dice {
         }
     }
 }
-}
+

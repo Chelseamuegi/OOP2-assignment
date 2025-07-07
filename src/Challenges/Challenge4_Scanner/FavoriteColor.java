@@ -1,5 +1,5 @@
 // Import - Scanner example
-package challenge;
+package Challenges.Challenge4_Scanner;
 
 import java.util.Scanner;
 public class FavoriteColor {

@@ -1,4 +1,4 @@
-package challenge;
+package Challenges.Challenge1call_a_function;
 // Simple java example
 public class introduction {
      void displaymessage(){

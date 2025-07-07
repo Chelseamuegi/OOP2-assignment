@@ -1,6 +1,6 @@
-package challenge.exceptionhandling;
+package Challenges.exceptionhandling;
 
-public class ArithmeticJava{
+public class Arithmetic{
     public static void main(String[] args) {
 
         int number1 = 100;

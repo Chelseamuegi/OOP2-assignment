@@ -1,4 +1,4 @@
-package challenge;
+package Challenges.Challenge2_Variables;
 //Variable example
 public class Variables {
     public static void calculateCost() {

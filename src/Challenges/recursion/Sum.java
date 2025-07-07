@@ -1,6 +1,6 @@
-package challenge.recursion;
+package Challenges.recursion;
 
-public class sum {
+public class Sum {
     public static int sum(int n) {
         if (n == 1) {
             return 1;

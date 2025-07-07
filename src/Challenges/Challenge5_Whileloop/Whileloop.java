@@ -1,4 +1,4 @@
-package challenge;
+package Challenges.Challenge5_Whileloop;
 // loop example
 import java.util.*;
 public class WhileLoop {
